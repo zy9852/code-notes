@@ -1,5 +1,6 @@
 <template>
     <div :class="s.code">
+         // 验证码输入框
         <div :class="s.code_input">
             <input
                 v-for="(c, index) in code"
